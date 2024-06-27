@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocina Recetas</title>
+    <!-- Incluye tus estilos CSS -->
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Selecciona tus ingredientes</h1>
+        <div class="wrapper">
+            <div class="left-container">
+                <form id="formIngredientes">
+                    <label><input type="checkbox" name="ingrediente" value="papa"> Papa</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="zanahoria"> Zanahoria</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="cebolla"> Cebolla</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="tomate"> Tomate</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="ajo"> Ajo</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="pollo"> Pollo</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="limón"> Limón</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="pasta"> Pasta</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="albahaca"> Albahaca</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="arroz"> Arroz</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="frijoles"> Frijoles</label><br>
+                    <label><input type="checkbox" name="ingrediente" value="plátano"> Plátano</label><br>
+                    <button type="submit">Cocinar</button>
+                </form>
+            </div>
+            <div class="right-container" id="resultado"></div>
+        </div>
+    </div>
+    <!-- Incluye tus scripts JS al final del cuerpo -->
+    <script src="js/jquery.js"></script>
+    <script type="module" src="js/myapp.js"></script>
+</body>
+</html>

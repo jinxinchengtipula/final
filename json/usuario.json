@@ -1,0 +1,29 @@
+[
+    {
+        "ingredientes": ["papa", "cebolla", "zanahoria"],
+        "platillo": "Sopa de Verduras",
+        "foto": "sopa.jpg"
+    },
+    {
+        "ingredientes": ["tomate", "cebolla"],
+        "platillo": "Ensalada Fresca",
+        "foto": "ensalada.jpg"
+    },
+    {
+        "ingredientes": ["pollo", "limón", "ajo"],
+        "platillo": "Pollo al Limón",
+        "foto": "pollo.jpg"
+    },
+    {
+        "ingredientes": ["pasta", "tomate", "albahaca"],
+        "platillo": "Pasta con Salsa de Tomate",
+        "foto": "pasta.jpg"
+    },
+    {
+        "ingredientes": ["arroz", "frijoles", "plátano"],
+        "platillo": "Casado Costarricense",
+        "foto": "casado.jpg"
+    }
+]
+
+  
